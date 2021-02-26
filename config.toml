@@ -2,8 +2,8 @@
 # if you set it to "/" share icons won't work properly on production
 baseurl = "/" # Uncomment before pushing to GitHub
 # baseurl = "https://example.com/"  # Include trailing slash, Comment out before pushing to GitHub
-title = "Clarity"
-author = "Keith Craigo"
+title = "Hugo Authors"
+author = "Hugo Authors"
 copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
 # canonifyurls = true
 paginate = 10
@@ -100,7 +100,7 @@ enforceLightMode = false
 # enforceDarkMode = false
 
 # customize footer icon. see issue https://github.com/chipzoller/hugo-clarity/issues/77
-# footerLogo = "icons/copy.svg"
+ footerLogo = "icons/coffeemug.png"
 
 # Text for the languages menu.
 languageMenuName = "🌐"
@@ -123,4 +123,4 @@ languageMenuName = "🌐"
 
 # The year when ths website was created, this value is used in the copyright
 # notice of the footer.
-# since = 2016
+since = 2021
