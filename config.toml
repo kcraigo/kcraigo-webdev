@@ -103,7 +103,7 @@ enforceLightMode = false
  footerLogo = "icons/coffeemug.png"
 
 # Text for the languages menu.
-languageMenuName = "🌐"
+# languageMenuName = "🌐"
 
 # Title separator, default to |.
 # titleSeparator = "|"
