@@ -1,13 +1,14 @@
 # set `baseurl` to your root domain
 # if you set it to "/" share icons won't work properly on production
-baseurl = "/"  # Include trailing slash
+baseurl = "/" # Uncomment before pushing to GitHub
+# baseurl = "https://example.com/"  # Include trailing slash, Comment out before pushing to GitHub
 title = "Clarity"
-author = "Jane Doe"
+author = "Keith Craigo"
 copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
 # canonifyurls = true
 paginate = 10
 theme = "hugo-clarity"
-
+enableEmoji = true 
 disqusShortname = ""
 
 DefaultContentLanguage = "en"
@@ -43,10 +44,10 @@ series = "series"
     tabWidth = 2
 
 [params]
-author = "Jane Doe"
-twitter = "@janedoe"
+author = "Keith Craigo"
+twitter = "@kcraigo"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
-introDescription = "Technologist, perpetual student, teacher, continual incremental improvement."
+introDescription = "Systems Administrator - Applied Materials, Developer, YouTube Creator"
 # introURL = "about/" # set the url for the 'read more' button below the introDescription, or set to false to not show the button
 # description = "" # set your site's description here. will be use for home page content meta tags (seo). Alternatively set this description in your homepage content file i.e content/_index.md. Whatever is set in the latter will take precedence
 

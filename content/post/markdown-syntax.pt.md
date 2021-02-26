@@ -4,6 +4,7 @@ title = "Guia de Sintaxe Markdown"
 date = "2019-03-11"
 description = "Um artigo simples para demonstrar a sintaxe básica de Markdown e como formatar elementos HTML."
 featured = true
+draft = true
 tags = [
     "markdown",
     "css",
