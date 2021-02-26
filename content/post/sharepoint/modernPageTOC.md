@@ -27,7 +27,7 @@ There are several methods we can use to create a TOC for our page.
    Tool | SharePoint Standard WebPart
 --------|------
   Power Apps | :white_medium_square:
-  Script Editor | :white_medium_square: (Available in all SharePoint versons except SharePoint Online)
+  Script Editor | :white_medium_square: (Available in all SharePoint versions except SharePoint Online)
   Markdown Webpart | :white_check_mark:
   Text Webpart | :white_check_mark:
 
