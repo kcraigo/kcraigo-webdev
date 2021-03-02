@@ -3,7 +3,7 @@ author = "Keith Craigo"
 title = "SharePoint React App Hosted in a SharePoint Folder"
 date = "2021-02-22"
 draft = true
-featured = true
+featured = false
 description = "Create a SharePoint Folder Based App with React"
 tags = [
     "SharePoint",

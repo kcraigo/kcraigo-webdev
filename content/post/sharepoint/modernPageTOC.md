@@ -12,7 +12,6 @@ tags = [
 ]
 categories = [
     "sharepoint",
-    "syntax",
 ]
 series = ["SharePoint Tools"]
 thumbnail = "images/TOC.png"
