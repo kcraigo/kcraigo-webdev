@@ -1,6 +1,6 @@
 +++
 author = "Keith Craigo"
-title = "Setup VSCode to remote into your Raspberry Pi with ssh"
+title = "Use SSH to Remote into a Raspberry Pi from VSCode"
 date = "2021-03-02"
 draft = false
 featured = true
@@ -87,6 +87,6 @@ If the .ssh dir does not exist create one with mkdir .ssh
 
 We are now remotely connected through ssh to our Raspberry Pi.
 
-We can noq create and save files from VSCode on our main computer to our Pi. 
+We can now create and save files from VSCode on our main computer to our Pi. 
 
 We can even develop apps to run on our Pi from VSCode but that is for another post.
