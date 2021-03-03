@@ -13,8 +13,10 @@ categories = [
     "raspberry Pi",
 ]
 series = ["Raspberry Pi"]
-thumbnail = "images/tut/raspberry-elvis.JPG"
+thumbnail = "images/tut/raspberry-elvis.png"
 +++
+
+!["Remote into a Raspberry Pi from VSCode"](/images/tut/raspberry-elvis.png "Remote into a Raspberry Pi from VSCode")
 
 # Copy Raspberry Pi Settings
 If you don't have ssh setup you may need to provide the password you provided when you initially set up your Pi.
@@ -65,7 +67,7 @@ If the .ssh dir does not exist create one with mkdir .ssh
 
 7. You should now see a new **Remote Explorer** icon in the left nav panel.
 
-!["New Remote Blade"](/images/tut/remote-blade.png "New Remote Blade")
+!["New Remote Explorer"](/images/tut/remote-blade.png "New Remote Explorer")
 
 8. Open the VSCode Command Palette - MAC: shift+command+p , Windows: shift+ctrl+p
 

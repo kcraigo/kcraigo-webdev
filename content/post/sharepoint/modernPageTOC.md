@@ -3,7 +3,7 @@ author = "Keith Craigo"
 title = "SharePoint Modern Page TOC"
 date = "2021-02-22"
 draft = false
-featured = true
+featured = false
 description = "Create a SharePoint Modern Page with a Table of Contents"
 tags = [
     "markdown",
@@ -13,7 +13,7 @@ tags = [
 categories = [
     "sharepoint",
 ]
-series = ["SharePoint Tools"]
+series = ["SharePoint"]
 thumbnail = "images/TOC.png"
 +++
 
