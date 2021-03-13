@@ -1,25 +1,26 @@
 +++
 author = "Keith Craigo"
 title = "Angular - Surface SharePoint List Data With MSGraph - Part 1 - App Registration"
-date = "2021-03-04"
+date = "2021-03-03"
 draft = false
 featured = true
-description = "Walk through in creating an Angular app to surface SharePoint list data with the Microsoft Graph - Part 1"
+description = "Create an Angular app that surfaces coffee information from a SharePoint list using the Microsoft Graph JavaScript SDK. This app does not require registration with the SharePoint App Catalog. This app is not a SharePoint or Provider Hosted App, nor is it an SPFx solution"
 tags = [
+    "markdown",
     "SharePoint",
-    "Angular",
     "MSGraph",
+    "Angular-Material",
     "Azure AD"
 ]
 categories = [
-    "SharePoint",
-    "Angular",
-    "MSGraph",
-    "Azure AD"
+    "sharepoint","angular","msgraph","angular-material","Azure AD"
 ]
 series = ["SharePoint App Development"]
 thumbnail = "images/accessPass-darkmode.png"
 +++
+
+> ## Please Note!
+> One of the dangers in writing a tutorial like this is that by the time you are finished writing it, there is a new revision to the libraries you are using. So please be aware that you may run into issues, **that you will need to resolve yourself**, if you use a different version of the libraries than what I am using.
 
 
 {{<youtube kvm9am9GKqk>}}
@@ -34,4 +35,4 @@ Navigate to your [Azure Portal](https://azure.microsoft.com/en-us/)
 !["Register Your App"](/images/tut/Register-App.png "Register Your App")
 !["Add API Permissions"](/images/tut/API-Permissions.png "Add API Permissions")
 
-**Up Next - Part 2 - Create an Angular App to make use of our new Tenant and Client ID's**
+## Next - Part: 2 - [Create An Angular App](/post/sharepoint/angular/p2-createapp/)

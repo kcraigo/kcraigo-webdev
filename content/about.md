@@ -13,10 +13,7 @@ thumbnail = "images/Keith-Mexico.jpg"
 
 Personal Projects - [GitHub](https://github.com/kcraigo).
 
-**WebDev By The Bay** - I use to own a web design business called WebDev By The Bay, I chose the name due to I live in between the Bay Area and Monterey Bay.
-
-I am now a Systems Administrator who occassionally develops websites and apps using IIS, SharePoint, Power Apps, Power Automate,
-Objective-C, Swift, Microsoft Graph, Azure Active Directory for the corporation.
+I am a full time Systems Administrator who likes to develop websites and apps using IIS, SharePoint, Power Apps, Power Automate, Objective-C, Swift, Microsoft Graph, Azure Active Directory as a hobby.
 
 I am also a Tutorial author. I write blog posts and create YouTube videos on various technologies such as WordPress, Microsoft Power Apps and Power Automate, Microsoft Graph, React, SharePoint, other O365 technologies and more.
 
