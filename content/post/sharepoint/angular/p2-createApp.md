@@ -16,7 +16,7 @@ categories = [
     "sharepoint","angular","msgraph","angular-material","Azure AD"
 ]
 series = ["SharePoint Tools"]
-thumbnail = "images/tut/accessPass-MSLogin.png"
+thumbnail = "images/tut/NewAngularApp.png"
 +++
 
 > ## Please Note!
@@ -60,10 +60,10 @@ Your screen should look like the following!
 Our goal is to make our app look like the following screen shots!
 
 **Dark Mode**
-!["AccessPass - Dark Mode"](/images/tut/accessPass-darkmode.png "AccessPass - Dark Mode")
+!["Coffee Manager - Dark Mode"](/images/tut/coffeeManager-DarkMode.png "Coffee Manager - Dark Mode")
 
 **Light Mode**
-!["AccessPass - SharePoint Data"](/images/tut/accessPass-SPData.png "AccessPass - SharePoint Data")
+!["Coffee Manager - SharePoint Data"](/images/tut/coffeeManager-LightMode.png "Coffee Manager - SharePoint Data")
 
 ## Next - Part 3: - [Add Some Style](/post/sharepoint/angular/p3-addstyle/)
 

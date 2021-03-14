@@ -16,7 +16,7 @@ categories = [
     "sharepoint","angular","msgraph","angular-material","Azure AD"
 ]
 series = ["SharePoint Tools"]
-thumbnail = "images/tut/accessPass-MSLogin.png"
+thumbnail = "images/tut/ChangedLogo.png"
 +++
 
 > ## Please Note!
