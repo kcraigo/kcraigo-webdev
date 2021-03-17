@@ -2,7 +2,7 @@
 author = "Keith Craigo"
 title = "Angular - Surface SharePoint List Data With MSGraph - Part 4 - Authentication"
 date = "2021-03-14"
-draft = true
+draft = false
 featured = true
 toc = true
 codeLineNumbers = true
