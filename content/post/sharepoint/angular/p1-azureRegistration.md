@@ -4,6 +4,9 @@ title = "Angular - Surface SharePoint List Data With MSGraph - Part 1 - App Regi
 date = "2021-03-03"
 draft = false
 featured = true
+toc = true
+codeLineNumbers = true
+codeMaxLines = 10
 description = "Create an Angular app that surfaces coffee information from a SharePoint list using the Microsoft Graph JavaScript SDK. This app does not require registration with the SharePoint App Catalog. This app is not a SharePoint or Provider Hosted App, nor is it an SPFx solution"
 tags = [
     "markdown",
@@ -16,7 +19,7 @@ categories = [
     "sharepoint","angular","msgraph","angular-material","Azure AD"
 ]
 series = ["SharePoint App Development"]
-thumbnail = "images/accessPass-darkmode.png"
+thumbnail = "images/tut/Azure-Services.png"
 +++
 
 > ## Please Note!
