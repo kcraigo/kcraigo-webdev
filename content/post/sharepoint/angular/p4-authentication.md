@@ -522,7 +522,7 @@ Click "This app has implicit grant settings enabled. If you are using any of the
 
  !["Coffee Manager - MSAL Authentication Code Flow"](/images/tut/MSALAuthenticationCode.png "Coffee Manager - MSAL Authentication Code Flow")
 
- Under check Implicit Grant and hybrid flows
+ In the Implicit Grant and hybrid flows section
 
  Uncheck both Access tokens and ID tokens.
 
