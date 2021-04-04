@@ -2,7 +2,7 @@
 author = "Keith Craigo"
 title = "Angular - Surface SharePoint List Data With MSGraph - Part 5 - Microsoft Graph"
 date = "2021-03-18"
-draft = true
+draft = false
 featured = true
 toc = true
 codeLineNumbers = true
@@ -468,5 +468,5 @@ Azure AD will return the viewer back to the Coffee Manager app and display the L
 
 We are now in a good position to retrieve list data from SharePoint. 
 
-## Next - Part: 6 - [Use The Microsoft Graph To Surface SharePoint List Data](/post/sharepoint/angular/tutorials/coffeemanager/p6-msgraph-sharepoint/) (Coming Soon!)
+## Next - Part: 6 - Use The Microsoft Graph To Surface SharePoint List Data (Coming Soon!)
 
