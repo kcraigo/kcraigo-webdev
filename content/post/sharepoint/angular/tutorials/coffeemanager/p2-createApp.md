@@ -68,5 +68,5 @@ Our goal is to make our app look like the following screen shots!
 **Light Mode**
 !["Coffee Manager - SharePoint Data"](/images/tut/coffeeManager-LightMode.png "Coffee Manager - SharePoint Data")
 
-## Next - Part 3: - [Add Some Style](/post/sharepoint/angular/p3-addstyle/)
+## Next - Part 3: - [Add Some Style](/post/sharepoint/angular/tutorials/coffeemanager/p3-addstyle/)
 

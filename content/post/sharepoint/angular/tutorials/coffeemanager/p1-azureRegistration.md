@@ -38,4 +38,4 @@ Navigate to your [Azure Portal](https://azure.microsoft.com/en-us/)
 !["Register Your App"](/images/tut/Register-App.png "Register Your App")
 !["Add API Permissions"](/images/tut/API-Permissions.png "Add API Permissions")
 
-## Next - Part: 2 - [Create An Angular App](/post/sharepoint/angular/p2-createapp/)
+## Next - Part: 2 - [Create An Angular App](/post/sharepoint/angular/tutorials/coffeemanager/p2-createapp/)

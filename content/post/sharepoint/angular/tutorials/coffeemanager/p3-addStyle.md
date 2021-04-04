@@ -936,4 +936,4 @@ Open **sidenav.component.html** and change the src attribute to point to the loc
 
  !["Coffee Manager - with Logo"](/images/tut/ChangedLogo.png "Coffee Manager - with Logo")
 
-## Next - Part: 4 - [Authentication](/post/sharepoint/angular/p4-authentication/)
+## Next - Part: 4 - [Authentication](/post/sharepoint/angular/tutorials/coffeemanager/p4-authentication/)

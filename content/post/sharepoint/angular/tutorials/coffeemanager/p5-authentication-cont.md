@@ -38,7 +38,9 @@ Repeat a thousand times. "Read The Docs,Read The Docs,Read The Docs,Read The Doc
 
 I'm tired now, need more coffee!
 
-Instead of returning the token silently, Azure AD returned the token in the URL. Now the navigation is incorrect, if you Inspect the Gift Cards page, you will see the error "The selector "app-redirect" did not match any elements blah blah blah". Yes that is the actual error blah, blah, blah. No not really but sometimes it seems like it might as well be.Yes sometimes you have no choice, you must just read through it! But somedays the last thing I want to do is read through a bunch of jargon.
+Instead of returning the token silently, Azure AD returned the token in the URL. Now the navigation is incorrect, if you Inspect the Gift Cards page, you will see the error "The selector "app-redirect" did not match any elements blah blah blah". Yes that is the actual error blah, blah, blah. 
+
+No not really but sometimes it seems like it might as well be.Yes sometimes you have no choice, you must just read through it! But somedays the last thing I want to do is read through a bunch of jargon.
 
 Anyways, the error is telling us the app has no idea where to send the viewer because there is no route for code=ksakfhkshjf98sdaf8usdfkw89y2rdfsnakldnf
 
@@ -52,7 +54,7 @@ Open **app-routing.module.ts** and another route to the routes array.
 
 Now if you navigate to the giftcards page, if you are not logged in, you are redirected to login, otherwise you will now see that the token is not present in the url and the page shows the message, **giftcards works!**
 
-But what happens when we setup another page with a gaurd, code is set to match our giftcards page?
+But what happens when we setup another page with a guard, code is set to match our giftcards page?
 
 Let's find out! Let's create the Brands page.
 
@@ -95,7 +97,7 @@ CREATE src/app/brands/brands.component.ts (276 bytes)
 UPDATE src/app/brands/brands.module.ts (349 bytes)
 ```
 
-Time to set up the gaurd.
+Time to set up the guard.
 Open **brands-routing.module.ts** and change the routes array to:
 ```
 import { MsalGuard } from '@azure/msal-angular';
@@ -165,7 +167,7 @@ import { HomeComponent } from './home.component';
 export class HomeModule { }
 
 ```
-
+## Home Component!
 Open **home.component.html** and replace it's contents with:
 ```
 <p>Welcome! To Coffee Manager!</p> 
@@ -175,7 +177,7 @@ Open **home.component.html** and replace it's contents with:
 Save all the files.
 For this next part we need to ensure our previous session is not still active. We could shutdown our browser, or in an open browser delete the cache, or open another tab in incognito mode.
 
-I prefer incognito/private mode because I usually have several tabs open at once and I don't want to have to log into my social media again.
+I prefer incognito/private mode because I usually have several tabs open at once and I don't want to have to log into my other sites again.
 
 Open a Private or Incognito browser window and navigate to your apps url. Click the Brands menu button and you will be taken to the Microsoft login.
  
@@ -194,7 +196,7 @@ below **app-root**
 <app-redirect></app-redirect>
 ```
 
-Now when the user logins, they will be taken back to the home page, then the window will redirect to the page that triggered the gaurd event.
+Now when the user logins, they will be taken back to the home page, then the window will redirect to the page that triggered the guard event.
 
 Let's move on!
 
@@ -213,11 +215,114 @@ CREATE src/app/core/services/auth.service.ts (133 bytes)
 ```
 If everything looks good, remove the **-d** flag and click enter one more time.
 
+## Auth Service!
 Open **auth.service.ts** 
->Please Note! I just use the code from the MSAL 2.0 sample.
+>Please Note! I copied the code from the MSAL 2.0 sample.
 [https://github.com/AzureAD/microsoft-authentication-library-for-js/tree/dev/samples/msal-angular-v2-samples/angular11-sample-app/src/app](https://github.com/AzureAD/microsoft-authentication-library-for-js/tree/dev/samples/msal-angular-v2-samples/angular11-sample-app/src/app) **app.component.ts**
 
-Copy the sample code in **app.component.ts** and paste as our **auth.service.ts** code.
+Copy the sample code in **app.component.ts** and paste it in our **auth.service.ts**.
+
+We need to make some modifications to the copied code.
+Replace the contents with
+
+```
+import { Component, OnInit, Inject, OnDestroy, Injectable } from '@angular/core';
+import { MsalService, MsalBroadcastService, MSAL_GUARD_CONFIG, MsalGuardConfiguration } from '@azure/msal-angular';
+import { AuthenticationResult, EventMessage, EventType, InteractionStatus, InteractionType, PopupRequest, RedirectRequest } from '@azure/msal-browser';
+import { Subject } from 'rxjs';
+import { filter, takeUntil } from 'rxjs/operators';
+
+@Injectable({
+  providedIn: 'root',
+})
+export class AuthService implements OnInit, OnDestroy {
+  isIframe = false;
+  loginDisplay = false;
+  userName = "";
+  private readonly _destroying$ = new Subject<void>();
+
+  constructor(
+    @Inject(MSAL_GUARD_CONFIG) private msalGuardConfig: MsalGuardConfiguration,
+    private authService: MsalService,
+    private msalBroadcastService: MsalBroadcastService
+  ) {}
+
+  ngOnInit(): void {
+    this.isIframe = window !== window.parent && !window.opener;
+
+    this.msalBroadcastService.inProgress$
+      .pipe(
+        filter((status: InteractionStatus) => status === InteractionStatus.None),
+        takeUntil(this._destroying$)
+      )
+      .subscribe(() => {
+        this.checkLogin();
+      });
+  }
+
+/**
+ * Check if the user is logged in. If true set the userName.
+ * @returns boolean
+ */
+  checkLogin() {
+    const curAccount = this.authService.instance.getAllAccounts();
+
+    if (curAccount === null ) {
+      console.log("No Accounts found!");
+      return false;
+    } else if ( curAccount .length > 1) {
+      console.log("More than one Account was found!");
+      return false;
+    } else if (curAccount.length === 1) {
+      this.userName = curAccount[0].name!;
+      return true;
+    }
+    return;
+  }
+
+  login() {
+    if (this.msalGuardConfig.interactionType === InteractionType.Popup) {
+      if (this.msalGuardConfig.authRequest){
+        this.authService.loginPopup({...this.msalGuardConfig.authRequest} as PopupRequest)
+          .subscribe((response: AuthenticationResult) => {
+            this.authService.instance.setActiveAccount(response.account);
+          });
+        } else {
+          this.authService.loginPopup()
+            .subscribe((response: AuthenticationResult) => {
+              this.authService.instance.setActiveAccount(response.account);
+            });
+      }
+    } else {
+      if (this.msalGuardConfig.authRequest){
+        this.authService.loginRedirect({...this.msalGuardConfig.authRequest} as RedirectRequest);
+      } else {
+        this.authService.loginRedirect();
+      }
+    }
+  }
+
+  logout() {
+    this.authService.logout();
+  }
+
+  /**
+   * Return the current user name.
+   * @returns string
+   */
+  getCurrentLogin() {
+    return this.userName;
+  }
+
+  ngOnDestroy(): void {
+    this._destroying$.next(undefined);
+    this._destroying$.complete();
+  }
+
+}
+
+
+```
 
 Now before moving on to our model, we need to create **notification.html** and it's style sheet, **notification.scss** in the **services** directory.
 
@@ -269,7 +374,7 @@ Open **toolbar.component.html** and add the following after the app title, and b
 <span class="toolbar-spacer"></span>
 
   <nav class="currentUser">
-    <label>Welcome! {{ user?.displayName }}</label>
+     <label>Welcome! {{ curLogin }}</label>
     
   </nav>
   &nbsp;
@@ -283,43 +388,64 @@ Open **toolbar.component.html** and add the following after the app title, and b
 
   Open **toolbar.component.ts** replace it's contents with:
   ```
-  import { Component, EventEmitter, Output } from '@angular/core';
+  import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { User } from '../models/user';
 import { AuthService } from '../services/auth.service';
-
-
+import { MsalBroadcastService} from '@azure/msal-angular';
+import { EventMessage, EventType } from '@azure/msal-browser';
+import { filter } from 'rxjs/operators';
 
 @Component({
   selector: 'app-toolbar',
   templateUrl: './toolbar.component.html',
   styleUrls: ['./toolbar.component.scss']
 })
-export class ToolbarComponent {
+export class ToolbarComponent implements OnInit {
 
+isAuthenticated = false;
+curLogin = "";
 
   @Output() toggleSidenav = new EventEmitter<void>();
   @Output() toggleTheme = new EventEmitter<void>();
   @Output() toggleDir = new EventEmitter<void>();
 
 
-// Is a user logged in?
-  get authenticated(): boolean {
-    return this.authService.authenticated;
-  }
-  // The user
-  get user(): User {
-    return this.authService.user;
-  }
+  constructor(private authService: AuthService, private msalBroadcastService: MsalBroadcastService) {}
 
-  constructor(private authService: AuthService) {}
+  ngOnInit() {
+    this.msalBroadcastService.msalSubject$
+    .pipe(
+      filter((msg: EventMessage) => msg.eventType === EventType.LOGIN_SUCCESS),
+    )
+    .subscribe((result: EventMessage) => {
+      console.log(result);
+      if (result?.payload?.account) {
+        this.authService;
+      }
+    });
 
+    this.checkAuth();
+  }
 
 async signIn(): Promise<void> {
-    await this.authService.signIn();
+    await this.authService.login();
   }
 
   signOut(): void {
-    this.authService.signOut();
+    this.authService.logout();
+  }
+
+/**
+ * Get the current logged in user name.
+ */
+  checkAuth() {
+    let isAuthorized = this.authService.checkLogin();
+    if( isAuthorized ) {
+      this.curLogin = this.authService.getCurrentLogin();
+      this.isAuthenticated = true;
+    } else {
+      this.isAuthenticated = false;
+    }
   }
 
 }
@@ -327,14 +453,20 @@ async signIn(): Promise<void> {
 ```
 Save and close all files.
 
+## Results!
 Launch the app once more in an incognito window.
 
 Click the **Login** button.
 
-You should now see a popup window appear containing the Microsoft Sign in. Sign in and you may see the Permission request dialog.
+You should now see a popup window or the page containing the Microsoft Sign in. Sign in and you may see the Permission request dialog.
 
 I'll leave it up to you whether or not you check the "Consent on behalf of your organization" and click Accept.
 
 Since this is my tenant, I choose to check the box and click the Accept button.
 
+Azure AD will return the viewer back to the Coffee Manager app and display the LogOut button and the name of the current user.
+
+We are now in a good position to retrieve list data from SharePoint. 
+
+## Next - Part: 6 - [Use The Microsoft Graph To Surface SharePoint List Data](/post/sharepoint/angular/tutorials/coffeemanager/p6-msgraph-sharepoint/) (Coming Soon!)
 

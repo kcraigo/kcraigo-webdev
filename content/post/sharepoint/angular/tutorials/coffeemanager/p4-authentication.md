@@ -549,4 +549,4 @@ If you click Sign-in-options
  
 Start using Angular Material to display a Login/Logout button. We will also setup other Angular Material components such as a table, checkboxes, filters and more in the next post.
 
-## Next - Part: 5 - [Using the Microsoft Graph](Coming Soon!)
+## Next - Part: 5 - [Authentication cont.](/post/sharepoint/angular/tutorials/coffeemanager/p5-authentication-cont/)
