@@ -1,6 +1,6 @@
 +++
 author = "Keith Craigo"
-title = "Angular - Surface SharePoint List Data With MSGraph - Part 5 - Microsoft Graph"
+title = "Angular - Surface SharePoint List Data With MSGraph - Part 5 - Authentication cont."
 date = "2021-03-18"
 draft = false
 featured = true
