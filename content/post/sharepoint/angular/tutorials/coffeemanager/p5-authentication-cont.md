@@ -30,7 +30,7 @@ if you use a different version of the libraries than what I am using.
 ># Disclaimer
 >This is my first time using MSAL 2, I'm learning as I write this tutorial.
 
-[In my last post](/post/sharepoint/angular/p4-authentication/), I setup the app to login into Azure AD and return the token, heres where I messed up, I assumed MSAL 2, Authorization Code Flow with PKCE, would behave just like MSAL 1. I had to Google to find out what PKCE stands for, (Proof Key for Code Exchange)
+[In my last post](/post/sharepoint/angular/tutorials/coffeemanager//p4-authentication/), I setup the app to login into Azure AD and return the token, heres where I messed up, I assumed MSAL 2, Authorization Code Flow with PKCE, would behave just like MSAL 1. I had to Google to find out what PKCE stands for, (Proof Key for Code Exchange)
 
 NOPE! Should have read the documentation some more! 
 
