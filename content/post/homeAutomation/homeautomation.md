@@ -1,7 +1,7 @@
 +++
 author = "Keith Craigo"
 title = "Home Automation - Part 1"
-date = "2021-07-05"
+date = "2021-06-05"
 draft = false
 featured = true
 toc = true
