@@ -46,7 +46,7 @@ Anyways, the error is telling us the app has no idea where to send the viewer be
 
 Let's change this now.
 
-Open **app-routing.module.ts** and another route to the routes array.
+Open **app-routing.module.ts** and add another route to the routes array.
 
 ```
 { path: 'code',  loadChildren: () => import('./giftcards/giftcards.module').then(m => m.GiftcardsModule)},

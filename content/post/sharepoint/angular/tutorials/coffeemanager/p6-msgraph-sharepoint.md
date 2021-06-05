@@ -27,8 +27,10 @@ thumbnail = "images/tut/accessPass-MSLogin.png"
 finished writing it, there is a new revision to the libraries you are using. 
 So please be aware that you may run into issues, **that you will need to resolve yourself**, 
 if you use a different version of the libraries than what I am using.
-># Disclaimer
->This is my first time using MSAL 2, I'm learning as I write this tutorial.
+> # Disclaimer
+> This is my first time using MSAL 2, I'm learning as I write this tutorial.
+> # Sorry for any delays in posting
+> I took on a new role at my employer, most of my time lately is spent coming up to speed on my new responsibilities.
 
 [In my last post](/post/sharepoint/angular/tutorials/coffeemanager/p5-authentication-cont/), I setup the app to login into Azure AD and return the token and the user name. I also setup the toolbar to display the Login/LogOut button and user name.
 
