@@ -1,8 +1,8 @@
 +++
 author = "Keith Craigo"
 title = "Home Automation - Part 1"
-date = "2021-04-22"
-draft = true
+date = "2021-07-05"
+draft = false
 featured = true
 toc = true
 codeLineNumbers = true
@@ -106,4 +106,4 @@ The default Username and Password = **admin**
 
 !["HomeBridge"](/images/tut/HomeKit/HomeBridge-Screenshot.png "HomeBridge")
 
-Next: 
+More to follow as time allows!
