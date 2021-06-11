@@ -7,7 +7,7 @@ author = "Keith Craigo"
 thumbnail = "images/Keith-Mexico.jpg"
 +++
 
-**Keith Craigo**, **System Administrator**, **Applied Materials**
+**Keith Craigo**, **System Administrator**
 
 ![Keith Craigo!](/images/Keith-Mexico.png "Keith Craigo")
 
