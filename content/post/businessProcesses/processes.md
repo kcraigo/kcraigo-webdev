@@ -7,7 +7,7 @@ featured = true
 toc = true
 codeLineNumbers = true
 codeMaxLines = 10
-description = "What is missing in your Business Process"
+description = "Business Processes you may not be aware of."
 tags = [
     "processes",
     "workflows",
