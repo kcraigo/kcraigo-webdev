@@ -1,6 +1,6 @@
 +++
 author = "Keith Craigo"
-title = "Internal Business Processes -  Some Things Citizen Developers Should Be Aware Of!"
+title = "Internal Business Processes -  Some Things Citizen Developers May Not Be Aware Of!"
 date = "2021-08-21"
 draft = false
 featured = true
