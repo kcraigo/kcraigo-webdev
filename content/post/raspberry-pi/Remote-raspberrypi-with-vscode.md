@@ -3,7 +3,7 @@ author = "Keith Craigo"
 title = "Remote into a Raspberry Pi from VSCode over SSH"
 date = "2021-03-02"
 draft = false
-featured = true
+featured = false
 description = "Setup VSCode to remote into your Raspberry Pi with ssh"
 tags = [
     "Raspberry Pi",
