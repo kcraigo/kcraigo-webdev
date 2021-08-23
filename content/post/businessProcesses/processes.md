@@ -81,6 +81,8 @@ Then you find out that SharePoint lists have a view threshold of around 5k rows 
 
 You decide the best way to handle this is to archive the data, reduce the number of rows in your list to get the search, filtering and list sorting features working again. You decide this should be done either by status or by date and you move these records into a separate list. You can do this manually but I suggest you create a scheduled workflow to handle this, you will need to determine the schedule.
 
+Update! Sorry I forgot to mention you can mitigate the view threshold issue by either increasing the limit to a reasonable amount such as 6k, consult with your SharePoint admin about this. Another approach is to create indexes on your lists for the columns that are most searched on. You can create up to 20 indexes. Also create different views based on your most searched criteria, such as the requestor, by date, by status. This helps a lot but at some point you may still run into view threshold limits. SharePoint can handle a lot of data but there are some things as a site owner you should be aware of. 
+
 Now you have multiple lists to maintain, you can't just delete data because this data is subject to SOX audits, you now need to think about list permissions on your archived data, you don't want to allow anyone to change the archived records.
 
 You soon realize that the view threshold is exceeded every few weeks. In my case this is exactly what is happening with several of my lists, I manage several different services offered by my department each with their own list and archives.
