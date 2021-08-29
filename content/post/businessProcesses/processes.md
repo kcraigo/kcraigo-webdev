@@ -160,25 +160,28 @@ or the [Azure Pricing Calculator](https://azure.microsoft.com/en-us/pricing/calc
 
 Or if your company uses another platform like the Amazon Web Services platform. You need to find out the costs of this platform. Your department will need to bear these costs.
 
-This is only first step of the project though.
+This is only the first step of the project though.
 
 You will now need to meet with one or more people in your organization, more than likely several times.
 
- Sometimes you need to meet with groups of people at the same time. You will need to draft presentations of the cost analysis, Network requirements, Security measures needed, Legal documents i.e. Contracts and NDA's, determine what are the long term support plans, Disaster Recovery plans, Data backup plans, will this be a hybrid solution, will your app only reside in the cloud, will the app be a monolithic, serverless or microservices architecture, should your solution be containerized i.e. Docker, who will be the long term support contacts and even more things you will be required to consider.
+ Sometimes you need to meet with groups of people at the same time. You will need to draft presentations of the cost analysis, Network requirements, Security measures needed, maybe even Legal documents i.e. Contracts and NDA's, determine what are the long term support plans, Disaster Recovery plans, Data backup plans, will this be a hybrid solution, will your app only reside in the cloud, will the app be a monolithic, serverless or microservices architecture, should your solution be containerized i.e. Docker, who will be the long term support contacts and even more.
 
-You may be required to search out 3rd party solutions and present a comparison of your findings even if you have already done this. Maybe a certain amount of time has passed since your last steering committee meeting, remember this process can take years in some cases.
+You may be required to search out 3rd party solutions and present a comparison of your findings, even if you have already done this. Maybe a certain amount of time has passed since your last steering committee meeting, remember this process can take years in some cases.
 
-More than likely you will need to draft and revise several entity diagrams, Security diagrams, Network diagrams. You may even need to draft Vortex and Edge diagrams to compare a graph database approach versus a relational database approach.
+More than likely you will need to draft and revise several entity diagrams, Security diagrams, Network diagrams. You may even need to draft Vertices and Edge diagrams to compare a graph database approach versus a relational database approach.
 
-You need to determine along with your team, where the data will reside, should it remain in a single location, should it be distributed across several availability zones. 
+You need to determine along with your team, where the data will reside, should it remain in a single location, should it be distributed across several availability zones or should it be a hybrid solution where the data remains in one of On-Premise locations but the code lives in the cloud. 
 
-If your app is to be used by employees in other countries, what are the local laws and regulations concerning where the data must reside, PII protection i.e. CCPA and GDPR laws. How will you support native languages if required?
+If your app is to be used by employees in other countries, what are the local laws and regulations concerning where the data must reside, PII protection i.e. CCPA and GDPR laws. 
+
+How will you support native languages if required?
 
 You will need to setup guidelines, write policies, have those policies approved by your legal team and then stored in a repository.
 
-You need to determine how you are going to manage feature creep, trust me everyone involved will want to introduce new features, it's not a matter of when and will it happen, it's going to happen. You need to be willing to say no if it interferes with developement and go live schedules, but say no in a professional way.
+You need to determine how you are going to manage feature creep, trust me everyone involved will want to introduce new features, it's not a matter of when and if it will happen, it's going to happen. You need to be willing to say no if it interferes with developement and go live schedules, but say no in a professional way.
 
-Again does your IT department have the resources to support all this infrastructure. If this is all new to your corporation you may need to consider other approaches.
+Again does your IT department have the resources to support all this infrastructure. 
+If this is all new to your corporation you may need to consider other approaches.
 
 Bottom line, you will not be the only one responsible for the success of your project. 
 
@@ -198,7 +201,7 @@ Let me be bold again and state that I believe most of the Citizen Developers do 
 
 I only know of, at a high level, Robotic Process Automation (RPA). It seems to me that a lot of the manual searching, discovery, and time it takes to determine an approach, the approval workflows, the alignment it takes to get a project adopted into an Enterprise could be greatly reduced by automation. 
 
-I also know that this is not an easy thing to accomplish but I think it is worth looking into.
+I also know that this is not be an easy thing to accomplish but I think it is worth looking into.
 
 But maybe I'm just too hopeful or maybe I'm just too naive. 
 
