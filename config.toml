@@ -51,6 +51,8 @@ introDescription = "System Administrator, Developer, YouTube Creator"
 # introURL = "about/" # set the url for the 'read more' button below the introDescription, or set to false to not show the button
  description = "Personal Blog of Keith Craigo" # set your site's description here. will be use for home page content meta tags (seo). Alternatively set this description in your homepage content file i.e content/_index.md. Whatever is set in the latter will take precedence
 
+p:domain_verify ="268e58af3674ec0cfad3ae65691c1bf0"
+
 # showShare = false # Uncomment to not show share buttons on each post. Also available in each post's front matter.
 
 # Google analytics Id
