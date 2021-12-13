@@ -27,10 +27,10 @@ Please see my [Twitter](https://twitter.com/KeithCraigo), [Instagram](https://ww
 
 TechTalk With Keith Podcast
 
-[Google Podcasts](https://bit.ly/33hooaB)
+- [Google Podcasts](https://bit.ly/33hooaB)
 
-[Apple Podcast](https://apple.co/3pSA6A6)
+- [Apple Podcast](https://apple.co/3pSA6A6)
 
-[Radio Public](https://bit.ly/3dKxqz0)
+- [Radio Public](https://bit.ly/3dKxqz0)
 
-[RedCircle](https://bit.ly/3DLN1J1)
+- [RedCircle](https://bit.ly/3DLN1J1)
