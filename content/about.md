@@ -25,7 +25,7 @@ Guitar, Singing.
 
 Please see my [Twitter](https://twitter.com/KeithCraigo), [Instagram](https://www.instagram.com/rodneykc/), [Github](https://github.com/kcraigo), and [YouTube](http://www.youtube.com/c/WebDevByTheBay) if you are interested to know more.
 
-TechTalk With Keith Podcast
+**TechTalk With Keith Podcast**
 
 - [Google Podcasts](https://bit.ly/33hooaB)
 
