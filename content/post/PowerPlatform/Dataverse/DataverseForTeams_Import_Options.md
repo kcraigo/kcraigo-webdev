@@ -216,4 +216,4 @@ I'm Thinking! I'm Thinking! I'm Thinking! I'm Thinking!
          alt="Dataverse For Teams Import Excel - We have Data in our Table - Finally">
 </figure>
 
-Next! Let's explore Importing with the SharePoint List option!
+Next! Let's explore Importing with the Dataflows option!
