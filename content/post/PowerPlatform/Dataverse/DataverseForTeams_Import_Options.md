@@ -183,7 +183,7 @@ Now we need to Map our data source columns to our destination table columns.
 
 I chose Load to existing table.
 
->Make sure to not to provide any mappings for your data table lookup columns, if you do the import 
+>Make sure to not provide any mappings for your data table lookup columns, if you do the import 
 will silently fail.
 
 <figure>
@@ -193,8 +193,8 @@ will silently fail.
 
 Once your satisfied, click Publish
 
-Beaware that there will be no indication that Publish is doing anything, there will be no status indicator, message nothing, Microsoft it would be 
-nice to have some indication that this is working.
+Be aware that there will be no indication that Publish is doing anything, no status indicator, no messages, nothing, Microsoft it would be 
+really nice to have some indication that this is working.
 
 So just be patient, this has taken several minutes for me. Just keep checking that your table is populated with the imported data.
 
@@ -216,4 +216,4 @@ I'm Thinking! I'm Thinking! I'm Thinking! I'm Thinking!
          alt="Dataverse For Teams Import Excel - We have Data in our Table - Finally">
 </figure>
 
-Next let's explore Importing with the Dataflows option!
+Next! Let's explore Importing with the SharePoint List option!
