@@ -1,10 +1,10 @@
 +++
 author = "Keith Craigo"
-title = "Dataverse For Teams Import Options"
+title = "Dataverse For Teams Import Options - Excel"
 date = "2022-01-05"
 draft = false
 featured = false
-description = "Dataverse For Teams - Import Options"
+description = "Dataverse For Teams - Import Options - Excel"
 tags = [
     "Dataverse For Teams",
     "Dataverse",
@@ -16,7 +16,7 @@ categories = [
     "PowerPlatform",
     "Power Apps For Teams"
 ]
-series = ["Power Platform","Power Apps For Teams"]
+series = ["Power Platform","Power Apps For Teams", "Dataverse for Teams"]
 thumbnail = "images/tut/PowerPlatform/Power_Query_Teams_Dashboard.png"
 +++
 
