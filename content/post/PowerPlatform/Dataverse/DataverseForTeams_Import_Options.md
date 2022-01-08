@@ -3,7 +3,7 @@ author = "Keith Craigo"
 title = "Dataverse For Teams Import Options - Excel"
 date = "2022-01-05"
 draft = false
-featured = false
+featured = true
 description = "Dataverse For Teams - Import Options - Excel"
 tags = [
     "Dataverse For Teams",
