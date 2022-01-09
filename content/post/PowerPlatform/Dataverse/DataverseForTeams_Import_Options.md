@@ -20,6 +20,8 @@ series = ["Power Platform","Power Apps For Teams", "Dataverse for Teams"]
 thumbnail = "images/tut/PowerPlatform/Power_Query_Teams_Dashboard.png"
 +++
 
+{{<youtube qByR58VAjSo>}}
+
 <figure>
     <img src="/images/tut/PowerPlatform/Power_Query_Teams_Dashboard.png "
          alt="Dataverse For Teams Import Options">
