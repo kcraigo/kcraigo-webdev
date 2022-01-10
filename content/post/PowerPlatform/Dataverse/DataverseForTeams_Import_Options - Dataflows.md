@@ -1,10 +1,10 @@
 +++
 author = "Keith Craigo"
-title = "Dataverse For Teams Import Options - Dataflows"
+title = "Dataverse For Teams Import Options - SharePoint List"
 date = "2022-01-05"
 draft = true
 featured = false
-description = "Dataverse For Teams - Import Options - Dataflows"
+description = "Dataverse For Teams - Import Options - SharePoint List"
 tags = [
     "Dataverse For Teams",
     "Dataverse",
@@ -27,7 +27,7 @@ thumbnail = "images/tut/PowerPlatform/Power_Query_Teams_Dashboard.png"
 </figure>
 
 
-**Clarification!** In my previous article, ["Dataverse For Teams Import Options - Excel"](https://www.kcraigo.com/post/powerplatform/dataverse/dataverseforteams_import_options/ "Dataverse Import Options - Excel") , I showed how you can import data from an Excel spreadsheet into Dataverse for Teams using the Power Query Dashboard. We will use the Dashboard in this tutorial as well but this time we will choose the Dataflows option. 
+**Clarification!** In my previous article, ["Dataverse For Teams Import Options - Excel"](https://www.kcraigo.com/post/powerplatform/dataverse/dataverseforteams_import_options/ "Dataverse Import Options - Excel") , I showed how you can import data from an Excel spreadsheet into Dataverse for Teams using the Power Query Dashboard. We will use the Dashboard in this tutorial as well but this time we will choose the SharePoint List option. 
 
 
-Next! Let's explore Importing with the Dataflows option!
+Next! Let's explore Importing with the SharePoint List option!
