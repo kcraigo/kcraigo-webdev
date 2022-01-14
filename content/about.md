@@ -27,10 +27,11 @@ Please see my [Twitter](https://twitter.com/KeithCraigo), [Instagram](https://ww
 
 **TechTalk With Keith Podcast**
 
-- [Google Podcasts](https://bit.ly/33hooaB)
+Tech Tips With Keith Podcast can now be found on these great Podcasts hosts:
 
-- [Apple Podcast](https://apple.co/3pSA6A6)
-
-- [Radio Public](https://bit.ly/3dKxqz0)
-
-- [RedCircle](https://bit.ly/3DLN1J1)
+[Apple Podcast](https://podcasts.apple.com/us/podcast/tech-tips-with-keith/id1598738168)
+[Stitcher](https://www.stitcher.com/podcast/techtalk-with-keith)
+[Spotify](https://open.spotify.com/show/27yGRlnXl8bijNQJosC6J6)
+[Radio Public](https://radiopublic.com/tech-tips-with-keith-6NrJVo)
+[RedCircle](https://redcircle.com/shows/tech-tips-with-keith)
+[Google Podcasts](https://bit.ly/3rfOao9)
