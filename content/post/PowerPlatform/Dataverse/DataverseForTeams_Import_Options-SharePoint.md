@@ -1,7 +1,7 @@
 +++
 author = "Keith Craigo"
 title = "Dataverse For Teams Import Options - SharePoint Online List"
-date = "2022-01-05"
+date = "2022-02-06"
 draft = false
 featured = true
 description = "Dataverse For Teams - Import Options - SharePoint Online List"
