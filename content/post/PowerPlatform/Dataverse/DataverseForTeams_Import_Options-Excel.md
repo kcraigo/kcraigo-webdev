@@ -146,7 +146,7 @@ There are a number of other ways to create a .csv file, I'll leave this up to yo
 1. Make sure your Dataverse table contains the columns you wish to import from your source data.
 2. Don't import lookup column values. **The Import will silently fail if you include lookup column values!**
 3. Don't import uneccessary columns, this helps save space in the Dataverse for Teams database. 
-You are limited to 2GB of data before you will need to get a license for the full version of Dataverse.
+**You are limited to 2GB of data.**
 
 ### Import
 
