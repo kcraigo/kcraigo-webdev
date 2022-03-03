@@ -36,5 +36,9 @@ See my video below for a walk through on importing data into your Dataverse For 
 {{<youtube r12sebCCgEI>}}
 
 
-### Next! Let's explore **Dataflows**! ###
+**Series!** 
+
+- ["Dataverse For Teams Import Options - Excel"](https://www.kcraigo.com/post/powerplatform/dataverse/dataverseforteams_import_options-excel/ "Dataverse Import Options - Excel") 
+
+- ["Dataverse For Teams Import Options - Dataflows"](https://www.kcraigo.com/post/powerplatform/dataverse/dataverseforteams_import_options-dataflows/ "Dataverse For Teams - Import Options Dataflows") 
 

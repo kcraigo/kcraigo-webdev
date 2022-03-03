@@ -218,4 +218,8 @@ I'm Thinking! I'm Thinking! I'm Thinking! I'm Thinking!
          alt="Dataverse For Teams Import Excel - We have Data in our Table - Finally">
 </figure>
 
-Next! Let's explore Importing with the SharePoint List option!
+**Series!** 
+
+- ["Dataverse For Teams Import Options - SharePoint Online List"](https://www.kcraigo.com/post/powerplatform/dataverse/dataverseforteams_import_options-sharepoint/ "Dataverse For Teams - Import Options SharePoint Online List") 
+
+- ["Dataverse For Teams Import Options - Dataflows"](https://www.kcraigo.com/post/powerplatform/dataverse/dataverseforteams_import_options-dataflows/ "Dataverse For Teams - Import Options Dataflows")  
