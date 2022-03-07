@@ -84,7 +84,11 @@ Finally I downloaded a fresh Excel file from my Dataverse table once more, added
 
 At this point I'm just going to develop a Power App, probably a Model Driven App to edit the data.
 
+**Series!** 
 
+- ["Dataverse For Teams Import Options - Excel"](https://www.kcraigo.com/post/powerplatform/dataverse/dataverseforteams_import_options-excel/ "Dataverse Import Options - Excel") 
 
+- ["Dataverse For Teams Import Options - SharePoint Online List"](https://www.kcraigo.com/post/powerplatform/dataverse/dataverseforteams_import_options-sharepoint/ "Dataverse For Teams - Import Options SharePoint Online List") 
 
+- ["Dataverse For Teams Import Options - Dataflows"](https://www.kcraigo.com/post/powerplatform/dataverse/dataverseforteams_import_options-dataflows/ "Dataverse For Teams - Import Options Dataflows")  
 
