@@ -9,7 +9,7 @@ thumbnail = "images/Keith-Mexico.jpg"
 
 **Keith Craigo**, **System Administrator**
 
-![Keith Craigo!](/images/Keith-Mexico.png "Keith Craigo")
+![Keith Craigo!](/images/Keith-Craigo-YT.png "Keith Craigo")
 
 Personal Projects - [GitHub](https://github.com/kcraigo).
 
