@@ -21,6 +21,8 @@ categories = [
 series = ["SharePoint App Development"]
 thumbnail = "images/tut/Azure-Services.png"
 +++
+> # This Project was discontinued mid 2021!
+> Leaving here for reference!
 
 > ## Please Note!
 > One of the dangers in writing a tutorial like this is that by the time you are finished writing it, there is a new revision to the libraries you are using. So please be aware that you may run into issues, **that you will need to resolve yourself**, if you use a different version of the libraries than what I am using.

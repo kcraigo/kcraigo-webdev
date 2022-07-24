@@ -22,8 +22,8 @@ series = ["SharePoint Tools"]
 thumbnail = "images/tut/accessPass-MSLogin.png"
 +++
 
-> ## This Project Is Now On Hold!
-> This Project is now on hold! 
+> # This Project was discontinued mid 2021!
+> Leaving here for reference!
 > Discovered that this project has some significant issues with various pieces i.e. login, data retrieval
 
 You may remember in earlier posts that there were some glitches in this code, one being that when you initially compile the app it fails on the first try but if you make a small change then it would compile, this still needs to be resolved.

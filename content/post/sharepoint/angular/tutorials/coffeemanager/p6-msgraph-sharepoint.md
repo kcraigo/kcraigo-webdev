@@ -21,6 +21,8 @@ categories = [
 series = ["SharePoint Tools"]
 thumbnail = "images/tut/accessPass-MSLogin.png"
 +++
+> # This Project was discontinued mid 2021!
+> Leaving here for reference!
 
 > ## Please Note!
 > One of the dangers in writing a tutorial like this is that by the time you are 
