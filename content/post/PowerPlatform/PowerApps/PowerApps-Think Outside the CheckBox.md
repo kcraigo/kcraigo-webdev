@@ -42,7 +42,8 @@ We use checkboxes everywhere from To-Do lists, on websites where we have to agre
 ## 1st Use Case!
 
 Add items to a Shopping Cart!
-In this case all we would need to add or remove from a Collection.
+
+In this case all we would need to do would be to add or remove from a Collection.
 
 <figure>
     <img src="/images/tut/PowerPlatform/ShoppingCartSelectedItems.png"
