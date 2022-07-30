@@ -144,12 +144,12 @@ Screen OnVisible Property create a collection,
 ClearCollect(colSelectedItems);
 ``` 
 
-**Add Button OnSelect Property: ** 
+**Add Button OnSelect Property:** 
 ``` 
 Collect(colSelectedItems, {Title: ThisItem.Title}
 ``` 
 
-**Delete Button OnSelect Property: ** 
+**Delete Button OnSelect Property:** 
 ``` 
 Remove(colSelectedItems, {Title: ThisItem.Title})
 ``` 
@@ -157,7 +157,7 @@ Remove(colSelectedItems, {Title: ThisItem.Title})
 ## Icons or Images!
 
 <figure>
-    <img src="/images/tut/PowerPlatform/ImageIcons.png"
+    <img src="/images/tut/PowerPlatform/ImagesIcons.png"
          alt="Checkbox Alternative Example - Image / Icons">
 </figure>
 
