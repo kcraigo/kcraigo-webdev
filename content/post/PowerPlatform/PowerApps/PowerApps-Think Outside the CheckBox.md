@@ -256,7 +256,7 @@ Remove(colSelectedItems, {Title: ThisItem.Title})
 ClearCollect(colSelectedItems);
 ```
 
-**ThumbsUp Icon DisplayMode: **
+**ThumbsUp Icon DisplayMode:**
 ```
 
 If
@@ -264,7 +264,10 @@ If
     DisplayMode.Disabled,
     Edit
 )(
-ThumbsDown Icon DisplayMode: 
+```
+
+**ThumbsDown Icon DisplayMode:** 
+```
 If
     ThisItem.Title = "Rejected",
     DisplayMode.Disabled,
@@ -287,14 +290,17 @@ If(ThisItem.Title = "Approved",ColorValue("#00E676"),ThisItem.Title = "Rejected"
 ClearCollect(colSelectedItems);
 ```
 
-**ThumbsUp Icon Visibility: **
+**ThumbsUp Icon Visibility:**
 
 ```
 If(
     ThisItem.Title = "Rejected",
     true,ThisItem.Title = "Pending",true
 )
-ThumbsDown Icon Visibility: 
+```
+
+**ThumbsDown Icon Visibility:** 
+```
 If(
     ThisItem.Title = "Approved",
     true,ThisItem.Title = "Pending",true
