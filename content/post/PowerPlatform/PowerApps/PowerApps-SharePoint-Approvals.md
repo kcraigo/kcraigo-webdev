@@ -2,7 +2,7 @@
 author = "Keith Craigo"
 title = "Power Apps - SharePoint - Approvals - Part 1"
 date = "2021-06-13"
-draft = false
+draft = true
 featured = true
 toc = true
 codeLineNumbers = true
