@@ -31,7 +31,7 @@ Technologies:
 
 {{<youtube HdMBcX7IlIc>}}
 
-We use checkboxes everywhere from To-Do lists, on websites where we have to agree to the use of cookies, agree that we have read an understood a privacy policy, agree to terms and conditions, add items to a shopping cart and more.
+We use checkboxes almost everywhere from To-Do lists, on websites where we have to agree to the use of cookies, agree that we have read an understood a privacy policy, agree to terms and conditions, add items to a shopping cart and more.
 
 <figure>
     <img src="/images/tut/PowerPlatform/IAgreeCheckbox.png"
