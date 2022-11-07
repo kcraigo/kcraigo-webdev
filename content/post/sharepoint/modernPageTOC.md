@@ -61,3 +61,11 @@ In the Markdown Editor paste the following:
 Rinse and repeat for all the other Headings on your page.
 You should now have something similar to:
 !["SharePoint Markdown Webpart - TOC"](/images/SP-ModernPage-TOC.png "SharePoint Markdown Webpart - TOC")
+
+{{<youtube ZlOMistbt2w>}}
+
+
+Or create a TOC with the Text Editor Webpart
+
+{{<youtube 8bXXaje8qgw>}}
+
