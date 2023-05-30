@@ -9,7 +9,7 @@ thumbnail = "images/Keith-2022.png"
 
 **Keith Craigo**, **Security Systems Developer**
 
-![Keith Craigo!](/images/Keith-2022.png "Keith Craigo")
+![Keith Craigo!](/images/Keith-Cabo-2023.png "Keith Craigo")
 
 Personal Projects - [GitHub](https://github.com/kcraigo).
 
