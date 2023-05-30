@@ -26,6 +26,8 @@ thumbnail = "images/ColorThemeTool0.png"
 
 # Microsoft O365 & Power Platform Community Blog - https://pnp.github.io/blog/
 
-[Power Apps User Permissions & The AADUser Table]("https://pnp.github.io/blog/post/power-apps-user-permissions-and-aadusers-table/")
+[](https://www.credly.com/badges/e2edee9e-b55a-4753-ae73-702dbba090ae/public_url)
 
-[Create a Table of Contents (TOC) on SharePoint Modern Pages]("https://pnp.github.io/blog/post/create-a-table-of-contents-on-sharepoint-modern-pages/")
+[Power Apps User Permissions & The AADUser Table](https://pnp.github.io/blog/post/power-apps-user-permissions-and-aadusers-table/)
+
+[Create a Table of Contents (TOC) on SharePoint Modern Pages](https://pnp.github.io/blog/post/create-a-table-of-contents-on-sharepoint-modern-pages/)
