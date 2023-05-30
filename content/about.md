@@ -1,10 +1,10 @@
 +++
 title = "About"
 description = "My Tech Journey"
-date = "2023-02-8"
+date = "2023-02-08"
 aliases = ["about-me"]
 author = "Keith Craigo"
-thumbnail = "images/Keith-2022.png"
+thumbnail = "images/Keith-Cabo-2023.png"
 +++
 
 **Keith Craigo**, **Security Systems Developer**
