@@ -14,7 +14,7 @@ thumbnail = "images/Keith-Cabo-2023.png"
 Personal Projects - [GitHub](https://github.com/kcraigo).
 
 My job title has recently changed to Security Systems Developer. 
-My main responiblities are developing department SharePoint sites & applications with the Power Platform, React, Angular, Microsoft Graph, & Azure Active Directory. 
+My main responsibilities are developing department SharePoint sites & applications with the Power Platform, React, Angular, Microsoft Graph, & Azure Active Directory. 
 
 I am a tutorial author! 
 I write blog posts and create YouTube videos on various technologies such as WordPress, Microsoft Power Apps and Power Automate, Microsoft Graph, React, SharePoint, other O365 technologies and more.
