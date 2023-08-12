@@ -24,9 +24,15 @@ series = ["Power Platform"]
 thumbnail = "images/ColorThemeTool0.png"
 +++
 
-# Microsoft O365 & Power Platform Community Blog - https://pnp.github.io/blog/
 
-[](https://www.credly.com/badges/e2edee9e-b55a-4753-ae73-702dbba090ae/public_url)
+![Blog Author - Microsoft 365 & Power Platform Community 2023](https://www.credly.com/badges/1f38f9da-ca5e-4e7a-b193-5a5271ff0d15/public_url)
+
+![Community Contributor 2022](https://www.credly.com/badges/e2edee9e-b55a-4753-ae73-702dbba090ae/public_url)
+
+![Season of Gitting 2022 - M365 Platform Community](https://www.credly.com/badges/4ca97570-1aff-417e-acd0-3fa6589f52bd/public_url)
+
+
+[Microsoft O365 & Power Platform Community Blog](https://pnp.github.io/blog/)
 
 [Power Apps User Permissions & The AADUser Table](https://pnp.github.io/blog/post/power-apps-user-permissions-and-aadusers-table/)
 
