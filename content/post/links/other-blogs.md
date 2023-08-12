@@ -24,12 +24,20 @@ series = ["Power Platform"]
 thumbnail = "images/ColorThemeTool0.png"
 +++
 
+<figure>
+    <img src="https://www.credly.com/badges/1f38f9da-ca5e-4e7a-b193-5a5271ff0d15/public_url"
+         alt="Blog Author - Microsoft 365 & Power Platform Community 2023">
+</figure>
 
-![Blog Author - Microsoft 365 & Power Platform Community 2023](https://www.credly.com/badges/1f38f9da-ca5e-4e7a-b193-5a5271ff0d15/public_url)
+<figure>
+    <img src="https://www.credly.com/badges/e2edee9e-b55a-4753-ae73-702dbba090ae/public_url"
+         alt="Community Contributor 2022">
+</figure>
 
-![Community Contributor 2022](https://www.credly.com/badges/e2edee9e-b55a-4753-ae73-702dbba090ae/public_url)
-
-![Season of Gitting 2022 - M365 Platform Community](https://www.credly.com/badges/4ca97570-1aff-417e-acd0-3fa6589f52bd/public_url)
+<figure>
+    <img src="https://www.credly.com/badges/4ca97570-1aff-417e-acd0-3fa6589f52bd/public_url"
+         alt="Season of Gitting 2022 - M365 Platform Community">
+</figure>
 
 
 [Microsoft O365 & Power Platform Community Blog](https://pnp.github.io/blog/)
