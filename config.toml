@@ -102,7 +102,7 @@ enforceLightMode = false
 # enforceDarkMode = false
 
 # customize footer icon. see issue https://github.com/chipzoller/hugo-clarity/issues/77
- footerLogo = "icons/KJ Consulting-logos_transparent.png"
+ footerLogo = "icons/KJ_Consulting-logos_transparent.png"
 
 # Text for the languages menu.
 # languageMenuName = "🌐"
