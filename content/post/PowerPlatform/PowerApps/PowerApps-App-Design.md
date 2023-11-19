@@ -11,7 +11,6 @@ description = "Power Apps - Custom Themes!"
 tags = [
     "SharePoint",
     "Design",
-    "CoE Starter Kit",
     "Power Platform",
     "Power Apps"
 ]
