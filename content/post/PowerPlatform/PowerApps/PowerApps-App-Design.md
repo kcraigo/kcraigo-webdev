@@ -2,7 +2,7 @@
 author = "Keith Craigo"
 title = "P1 - Power App Design Series - MIND MAP IT!"
 date = "2023-11-19"
-draft = false
+draft = true
 featured = true
 toc = false
 codeLineNumbers = true
