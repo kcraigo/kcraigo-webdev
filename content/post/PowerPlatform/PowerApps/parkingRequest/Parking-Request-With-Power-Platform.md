@@ -139,6 +139,29 @@ Parking Management System provides a way for the business traveler to notify the
         - Employee Contact Information
         - Emergency Contact Information 
 
+# Architecture
+
+### Create Entity Diagrams
+<figure>
+    <img src="/images/tut/PowerPlatform/ParkingReqManager/ParkingManager-Entities.png" margin='0px 2px 0px 2px'
+         alt="Parking Request - Entity Diagram">
+    
+</figure>
+
+### Create Process Flows
+<figure>
+    <img src="/images/tut/PowerPlatform/ParkingReqManager/Parking Request Manager - Process Flows.png" margin='0px 2px 0px 2px'
+         alt="Parking Request - Process Flows">
+    
+</figure>
+
+### Create Mind Maps
+<figure>
+    <img src="/images/tut/PowerPlatform/ParkingReqManager/Parking Manager - Mind Map.png" margin='0px 2px 0px 2px'
+         alt="Parking Request - Mind Map">
+    
+</figure>
+
 # Setup The Database
 
 ## Resources:
