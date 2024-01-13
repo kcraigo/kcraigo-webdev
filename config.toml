@@ -6,7 +6,7 @@
 #author = "Hugo Authors"
 #copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
 # canonifyurls = true
-baseurl = '/'
+ baseurl = "/"
 title ='Keith Craigo Blog'
 paginate = 10
 theme = "hugo-clarity"

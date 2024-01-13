@@ -1,23 +1,23 @@
 +++
 author = "Keith Craigo"
-title = "P2 - Power App Design Series - Diagrams and more!"
-date = "2023-11-25"
-draft = false
+title = "P1 - Create A Parking Request Management System with the Power Platform - Design"
+date = "2024-1-2"
+draft = true
 featured = true
 toc = false
 codeLineNumbers = true
 codeMaxLines = 10
-description = "Power Apps - Custom Themes!"
+description = "Power Apps!"
 tags = [
-    "SharePoint",
+    "Dataverse",
     "Design",
     "Power Platform",
     "Power Apps"
 ]
 categories = [
-    "themes","power platform","power apps","sharepoint","mindmaps","power automate"
+    "power platform","power apps","sharepoint","mindmaps","power automate"
 ]
-series = ["Power Apps - App Design"]
+series = ["Power Apps - System Development"]
 thumbnail = "images/tut/PowerPlatform/MindMapIt.png"
 +++
 
@@ -58,7 +58,51 @@ c.	Power Automate Studio – Approvals Tab
 
 ## Create Entity Diagrams
 <figure>
-    <img src="images/tut/PowerPlatform/ParkingReqManager/ParkingManager-Entities.drawio.png"
+    <img src="/images/tut/PowerPlatform/ParkingReqManager/ParkingManager-Entities.drawio.png"
          alt="Parking Request Entity Diagram">
 </figure>
+
+## Clarification of the Question Table and the QuestionClassification tables!
+
+I'll refer to tables as lists due to SharePoint will be used in the demo.
+
+Why the QuestionClassification list?
+
+The Questions list will be a **Master List** of questions.
+
+- Is Vehicle in good running condition? **Classifications:** On-Prem, Parking, Security
+- SOC 2 Type 2? **Classifications:** SaaS, Cloud, AWS
+
+Each question will be classified by one or more of the Classifications listed in the QuestionClassification list.
+
+- On-Prem
+- SaaS
+- Security
+- Parking
+- Lost and Found
+- Incident
+- Vehicle
+- Delvery
+- Phone Log
+- Cloud
+- Hardware
+- Virtual Machine
+- AWS
+- Azure
+- GCP
+- Aurora Database
+- Azure SQL
+- Cosmos DB
+- SQL Server
+- Amazon Neptune
+- Amazon DocumentDB
+- ISO27001
+- NIST 800
+- GDPR
+- Bridge Letter
+- Pentest
+
+And more, both Questions and QuestionClassification lists will grow over time.
+
+Questions and QuestionClassification lists will be used in other projects. 
 

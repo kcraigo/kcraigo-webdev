@@ -1,23 +1,27 @@
 +++
 title = "About"
 description = "My Tech Journey"
-date = "2023-02-08"
+date = "2024-01-11"
 aliases = ["about-me"]
 author = "Keith Craigo"
 thumbnail = "images/Keith-Cabo-2023.png"
 +++
 
-**Keith Craigo**, **Security Systems Developer**
+**Keith Craigo**
 
-![Keith Craigo!](/images/Keith-Cabo-2023.png "Keith Craigo")
+<figure>
+    <img src="/images/Keith-Cabo-2023.png"
+         alt="Keith Craigo" width=200 height=200>
+    
+</figure>
 
+## About Me!
 Personal Projects - [GitHub](https://github.com/kcraigo).
 
-My job title has recently changed to Security Systems Developer. 
-My main responsibilities are developing department SharePoint sites & applications with the Power Platform, React, Angular, Microsoft Graph, & Azure Active Directory. 
-
-I am a tutorial author! 
-I write blog posts and create YouTube videos on various technologies such as WordPress, Microsoft Power Apps and Power Automate, Microsoft Graph, React, SharePoint, other O365 technologies and more.
+I write blog posts and create YouTube videos on various technologies such as WordPress, Microsoft Power Apps and Power Automate, Microsoft Graph, React, SharePoint, and other O365 technologies.
 
 
 Please see my [LinkedIn](https://www.linkedin.com/in/keithcraigo/), [Instagram](https://www.instagram.com/rodneykc/), [Github](https://github.com/kcraigo), and [YouTube](http://www.youtube.com/c/WebDevByTheBay) if you are interested to know more.
+
+## About this site!
+This is my personal Blog, all opinions are my own. Neither I nor this site, blogs, represent any Company, Organization or Corporation in any way shape or form. 
