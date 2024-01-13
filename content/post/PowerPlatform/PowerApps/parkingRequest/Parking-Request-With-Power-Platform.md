@@ -1,6 +1,6 @@
 +++
 author = "Keith Craigo"
-title = "Real World Power Platform Projects - Parking Request Manager"
+title = "Real World Power Platform Projects - Parking Request Manager - part 1: Setup"
 date = "2024-01-11"
 draft = false
 featured = true
