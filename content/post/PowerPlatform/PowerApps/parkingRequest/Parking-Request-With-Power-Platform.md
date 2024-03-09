@@ -23,7 +23,7 @@ thumbnail = "images/tut/PowerPlatform/ParkingReqManager/Parking-Car.jpeg"
 
 <figure>
     <img src="/images/tut/PowerPlatform/ParkingReqManager/Parking-Car.jpeg"
-         alt="Business Traveler - Parking in Company Parking Lot" width=400 height=400>
+         alt="Business Traveler - Parking in Company Parking Lot">
     
 </figure>
 
@@ -322,10 +322,13 @@ In this article I covered creating the backing database in Microsoft Dataverse f
 
 In the next article we will create the UI, the backing Power Automate Flows & connect our tables in Microsoft Dataverse for Teams. 
 
-Stay tuned for **part 2**!
+<a href="/post/powerplatform/powerapps/parkingrequest/parking-request-with-power-platform-part2/">Real World Power Platform Projects - Parking Request Manager - part 2: Design The App</a>
 
 Please be sure to check out the following companion video to this post.
 
 ### Create a Parking Request App Using Dataverse for Teams & Power Apps! - Ep. 1 - Setup 
 {{<youtube uidLi6_c0LQ>}}
 
+## Credits!
+
+**Images:** Microsoft Image Creator
