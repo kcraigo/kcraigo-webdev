@@ -21,7 +21,7 @@ Personal Projects - [GitHub](https://github.com/kcraigo).
 I write blog posts and create YouTube videos on various technologies such as WordPress, Microsoft Power Apps and Power Automate, Microsoft Graph, React, SharePoint, and other O365 technologies.
 
 
-Please see my [LinkedIn](https://www.linkedin.com/in/keithcraigo/), [Instagram](https://www.instagram.com/rodneykc/), [Github](https://github.com/kcraigo), and [YouTube](http://www.youtube.com/c/WebDevByTheBay) if you are interested to know more.
+Please see my [LinkedIn](https://www.linkedin.com/in/keithcraigo/), [Github](https://github.com/kcraigo), and [YouTube](http://www.youtube.com/c/WebDevByTheBay) if you are interested to know more.
 
 ## About this site!
 This is my personal Blog, all opinions are my own. Neither I nor this site, blogs, represent any Company, Organization or Corporation in any way shape or form. 
