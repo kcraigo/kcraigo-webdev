@@ -552,7 +552,7 @@ In this article I covered creating the User Interface in Microsoft Power Apps fo
 
 In the next article we will create a Virtual Assistant to answer traveler questions. 
 
-Stay tuned for **Real World Power Platform Projects - Parking Request Manager - part 3: Create A Virtual Assistant!**
+Stay tuned for **Real World Power Platform Projects - Parking Request Manager - part 3: Create an Approval Workflow!**
 
 Please be sure to check out the following companion video to this post.
 
