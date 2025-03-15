@@ -315,7 +315,9 @@ Collaborate with your corporate facilities department to create interactive camp
 - Webinars
 - YouTube Videos
 - Presentations
-- Create a Document Library in SharePoint for videos, slides, Word Docs and more.
+- Create a Document Library in SharePoint for videos 
+{{<youtube AC42mMWPjMs>}},
+slides, Word Docs and more.
 
 # Summary
 In this article I covered creating the backing database in Microsoft Dataverse for Teams using Power Query to build out our schema from an Excel Template.
