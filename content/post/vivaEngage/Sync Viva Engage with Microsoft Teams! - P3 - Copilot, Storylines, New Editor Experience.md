@@ -16,7 +16,7 @@ tags = [
 categories = [
     "msteams","power platform","power automate","viva engage",
 ]
-series = ["Viva Engage & MSTeams"]
+series = ["Viva Engage, MSTeams"]
 thumbnail = "images/ColorThemeTool0.png"
 +++
 
