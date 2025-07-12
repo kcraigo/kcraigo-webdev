@@ -2,9 +2,9 @@
 author = "Keith Craigo"
 title = "Sync Viva Engage with Microsoft Teams!- P1 - Setup"
 date = "2024-03-27"
-draft = false
+draft = true
 featured = true
-toc = true
+toc = false
 codeLineNumbers = true
 codeMaxLines = 10
 description = "Power Automate, MSTeams and Viva Engage!"
