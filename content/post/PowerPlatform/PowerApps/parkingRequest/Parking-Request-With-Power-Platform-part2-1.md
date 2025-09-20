@@ -660,7 +660,7 @@ Stay tuned for **Real World Power Platform Projects - Parking Request Manager - 
 Please be sure to check out the following companion video to this post.
 
 ### Create a Parking Request App Using Dataverse for Teams & Power Apps! - Ep. 1 - Setup 
-[![Power App Design Series - p4 - Create a Parking Request App - Setup](https://youtu.be/vWxnbmUJqpw?si=vUWR-Kvhaah_VGd_)
+[![Power App Design Series - p4 - Create a Parking Request App - Setup]([https://img.youtube.com/vi/VIDEO_ID/0.jpg)\](https://youtu.be/uidLi6_c0LQ])
 
 ## Credits!
 
