@@ -329,7 +329,7 @@ In the next article we will create the UI, the backing Power Automate Flows & co
 Please be sure to check out the following companion video to this post.
 
 ### Create a Parking Request App Using Dataverse for Teams & Power Apps! - Ep. 1 - Setup 
-{{<youtube uidLi6_c0LQ>}}
+[![Watch Video](https://img.youtube.com/vi/AC42mMWPjMs)/0.jpg)](https://www.youtube.com/watch?v=AC42mMWPjMs)]
 
 ## Credits!
 
