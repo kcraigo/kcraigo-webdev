@@ -316,7 +316,7 @@ Collaborate with your corporate facilities department to create interactive camp
 - YouTube Videos
 - Presentations
 - Create a Document Library in SharePoint for videos 
-{{<youtube AC42mMWPjMs>}},
+[![Watch Video](https://i9.ytimg.com/vi/AC42mMWPjMs/mqdefault.jpg?v=68ea416e&sqp=CPjDvcgG&rs=AOn4CLBLy2lbe1kYStvM61aI8zRekU8SDw)](https://youtu.be/AC42mMWPjMs)]
 slides, Word Docs and more.
 
 # Summary
@@ -329,7 +329,7 @@ In the next article we will create the UI, the backing Power Automate Flows & co
 Please be sure to check out the following companion video to this post.
 
 ### Create a Parking Request App Using Dataverse for Teams & Power Apps! - Ep. 1 - Setup 
-[![Watch Video](https://i.ytimg.com/vi/uidLi6_c0LQ/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAm5jLLBa_wKgrWUMeb-Bz7OtojAA)/0.jpg)](https://www.youtube.com/watch?v=AC42mMWPjMs)]
+[![Watch Video](https://i.ytimg.com/vi/uidLi6_c0LQ/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAm5jLLBa_wKgrWUMeb-Bz7OtojAA)](https://www.youtube.com/watch?v=AC42mMWPjMs)]
 
 ## Credits!
 
